@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    margin: 44px 0 100px 76px;
+}
+
+.header-link {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #f90000;
+    margin-right: 23px;
+    cursor: pointer;
+}
+
+.header-link:hover {
+    opacity: 0.6;
+}
+
+.header-link:active {
+    opacity: 0.3;
+}
+
+img {
+    width: 550px;
+    height: 550px;
+    margin-left: 125px;
+}
+
+.section-right {
+
+    position: absolute;
+    left: 600px;
+    top: 210px;
+    margin-left: 95px;
+
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 122px;
+    color: #1900f7;
+    width: 513px;
+    height: 90px;
+
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 71px;
+    color: #2290df;
+    width: 448px;
+    height: 71px;
+    margin-bottom: 25px;
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    width: 515px;
+    height: 87px;
+    color: #262525;
+
+}
+
+#button-section {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    background: #f90000;
+    border-radius: 35px;
+    border: none;
+    width: 239px;
+    height: 64px;
+    position: absolute;
+    top: 420px;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.button-header {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    background: #1900f7;
+    border: none;
+    width: 87px;
+    height: 29px;
+    color: #FFFFFF;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#button-section:hover {
+    opacity: 0.7;
+}
+
+#button-section:active {
+    opacity: 0.2;
+}
+
+.button-header:hover {
+    opacity: 0.7;
+}
+
+.button-header:active {
+    opacity: 0.2;
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        display: none;
+    }
+
+    main {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    img {
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        top: 10%;
+        right: 25%;
+    }
+
+    .section-right {
+        position: absolute;
+        text-align: center;
+        left: -19vh;
+
+
+    }
+
+    h1 {
+        font-size: 200%;
+        line-height: 70vh;
+
+
+    }
+
+    h2 {
+        font-size: 200%;
+        line-height: 60vh;
+        position: absolute;
+        left: 5%;
+
+    }
+
+    p {
+        display: none;
+    }
+
+    #button-section {
+
+        position: absolute;
+        left: 26%;
+        top: 47vh;
+
+
+    }
+}
